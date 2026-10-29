@@ -1,0 +1,12 @@
+(supertux-sprite
+  (action (name "left") (hitbox 24 48 64 72) (fps 7) (images "walk-0.png" "walk-1.png" "walk-2.png"))
+  (action (name "right") (hitbox 24 48 64 72) (mirror-action "left"))
+  (action (name "crouch-left") (hitbox 24 48 64 72) (fps 7) (images "walk-1.png"))
+  (action (name "crouch-right") (hitbox 24 48 64 72) (mirror-action "crouch-left"))
+  (action (name "hop-left") (hitbox 24 48 64 72) (fps 7) (images "walk-0.png"))
+  (action (name "hop-right") (hitbox 24 48 64 72) (mirror-action "hop-left"))
+  (action (name "dizzy-left") (hitbox 24 48 64 72) (fps 7) (images "walk-2.png"))
+  (action (name "dizzy-right") (hitbox 24 48 64 72) (mirror-action "dizzy-left"))
+  (action (name "squished-left") (hitbox 24 48 64 72) (fps 7) (images "squished.png"))
+  (action (name "squished-right") (hitbox 24 48 64 72) (mirror-action "squished-left"))
+)

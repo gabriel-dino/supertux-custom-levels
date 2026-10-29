@@ -1,0 +1,8 @@
+(supertux-level-subset
+  (title (_ "IceSlime Trail"))
+  (description (_ "Five original adventures through snowy trails, slippery ice, crystal steps and moonlit crossings. Meet IceSlime and master the frozen gauntlet!"))
+  (levelset #f)
+  (contrib-type "user")
+  (hide-from-contribs #f)
+  (tuxdolls-required 0)
+)

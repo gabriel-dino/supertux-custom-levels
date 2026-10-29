@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (id "frostbound_frontier")
+  (version 1)
+  (type "world")
+  (title "Frostbound Frontier")
+  (author "SuperTux Player")
+  (license "CC0-1.0 (original levels/art); GPL-3.0-or-later (scripts/tilesets)")
+)

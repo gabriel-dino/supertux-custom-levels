@@ -1,0 +1,20 @@
+; SPDX-License-Identifier: GPL-3.0-or-later
+; Adapted from SuperTux tile/road definitions; existing contributor rights retained.
+(supertux-tiles
+  (tiles (width 3) (height 3)
+    (ids 11 16 12 15 19 17 14 18 13)
+    (image "worldmap/forest/land.png"))
+  (tiles (width 4) (height 4)
+    (ids 48 39 41 43 37 42 44 38 70 69 47 45 68 71 40 8)
+    (datas 6 10 23 30 5 9 29 27 18 20 3 31 17 24 12 0)
+    (image "worldmap/deprecated/antarctica/roads.png"))
+  (tilegroup (name (_ "Easter island")) (tiles 11 16 12 15 19 17 14 18 13))
+  (tilegroup (name (_ "Easter roads")) (tiles 48 39 41 43 37 42 44 38 70 69 47 45 68 71 40 8))
+
+  (tile (id 103) (images (region "worldmap/deprecated/antarctica/roads.png" 64 64 32 32)) (stop #t) (north #t) (south #t) (east #f) (west #f))
+  (tile (id 105) (images (region "worldmap/deprecated/antarctica/roads.png" 0 32 32 32)) (stop #t) (north #t) (south #f) (east #t) (west #f))
+  (tile (id 106) (images (region "worldmap/deprecated/antarctica/roads.png" 0 0 32 32)) (stop #t) (north #f) (south #t) (east #t) (west #f))
+  (tile (id 109) (images (region "worldmap/deprecated/antarctica/roads.png" 32 32 32 32)) (stop #t) (north #t) (south #f) (east #f) (west #t))
+  (tile (id 110) (images (region "worldmap/deprecated/antarctica/roads.png" 32 0 32 32)) (stop #t) (north #f) (south #t) (east #f) (west #t))
+  (tile (id 112) (images (region "worldmap/deprecated/antarctica/roads.png" 64 96 32 32)) (stop #t) (north #f) (south #f) (east #t) (west #t))
+)

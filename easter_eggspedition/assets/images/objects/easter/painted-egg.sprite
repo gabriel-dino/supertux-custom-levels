@@ -1,0 +1,3 @@
+(supertux-sprite
+  (action (name "default") (hitbox 4 4 24 28) (fps 7) (images "painted-egg.png"))
+)

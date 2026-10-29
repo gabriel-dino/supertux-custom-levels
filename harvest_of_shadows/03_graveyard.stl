@@ -1,0 +1,368 @@
+(supertux-level
+  (version 3)
+  (name (_ "Graveyard Shift"))
+  (author "SuperTux Player")
+  (license "CC0-1.0")
+  (target-time 126)
+  (allow-item-pocket "on")
+  (statistics (enable-coins #t) (enable-secrets #f))
+  (sector
+    (name "main")
+    (gravity 10)
+    (gradient (top_color 0.075 0.035 0.14) (bottom_color 0.34 0.15 0.29))
+    (ambient-light (color 0.88 0.84 1))
+    (background (image "images/background/halloween/sky.png") (speed 0) (z-pos -300))
+    (background (image "images/background/halloween/mountain_panorama.png") (speed 0.1) (z-pos -250))
+    (background (image "images/background/halloween/fog_merged.png") (speed 0.25) (z-pos -220))
+    (camera (name "Camera") (mode "normal"))
+    (music (file "music/forest/ghostforest2.music"))
+    (tilemap
+      (name "Scenery")
+      (z-pos -110)
+      (solid #f)
+      (width 128)
+      (height 24)
+      (tiles
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 3070 3069 3070 3069 3070 3069 3070 3069 3070 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 3069 3070 3069 3070 3069 3070 3069 0 0 0 0 0 0 0 0 0 3069 3070 3069 3070 3069 3070 3069 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070
+        3069 3070 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3070 3069 3070 3069 3070 3069 3070
+        3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070
+        3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070 3069 3070
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (name "Terrain")
+      (z-pos 0)
+      (solid #t)
+      (width 128)
+      (height 24)
+      (tiles
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 3074 3073 3074 3073 3074 3073 3074 3073 3074 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 3078 3077 3078 3077 3078 3077 3078 3077 3078 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 3073 3074 3073 3074 3073 3074 3073 3078 3077 3078 3077 3078 3077 3078 3077 3078 3073 3074 3073 3074 3073 3074 3073 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074
+        3073 3074 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3074 3073 3074 3073 3074 3073 3074
+        3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074
+        3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074 3073 3074
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+        3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078 3077 3078
+      )
+    )
+    (infoblock
+      (x 224)
+      (y 512)
+      (message "-Graveyard Shift\n#Bone Walkers collapse, then rebuild. Stomp them again quickly to defeat them.")
+      (fadetransition #f)
+    )
+    (bonusblock (x 384) (y 480) (contents "firegrow"))
+    (firefly (x 2048) (y 576) (sprite "images/objects/halloween/torch-lantern.sprite"))
+    (bonusblock (x 2144) (y 480) (contents "firegrow"))
+    (scriptedobject
+      (name "CWActor001")
+      (x 704)
+      (y 576)
+      (sprite "images/creatures/bone_walker/bone-walker.sprite")
+      (solid #f)
+      (physic-enabled #f)
+    )
+    (scriptedobject
+      (name "CWActor002")
+      (x 1120)
+      (y 544)
+      (sprite "images/creatures/bone_walker/bone-walker.sprite")
+      (solid #f)
+      (physic-enabled #f)
+    )
+    (scriptedobject
+      (name "CWActor003")
+      (x 1536)
+      (y 480)
+      (sprite "images/creatures/bone_walker/bone-walker.sprite")
+      (solid #f)
+      (physic-enabled #f)
+    )
+    (scriptedobject
+      (name "CWActor004")
+      (x 1952)
+      (y 576)
+      (sprite "images/creatures/bone_walker/bone-walker.sprite")
+      (solid #f)
+      (physic-enabled #f)
+    )
+    (scriptedobject
+      (name "CWActor005")
+      (x 2368)
+      (y 576)
+      (sprite "images/creatures/bone_walker/bone-walker.sprite")
+      (solid #f)
+      (physic-enabled #f)
+    )
+    (scriptedobject
+      (name "CWActor006")
+      (x 2784)
+      (y 576)
+      (sprite "images/creatures/bone_walker/bone-walker.sprite")
+      (solid #f)
+      (physic-enabled #f)
+    )
+    (coin (x 480) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 480) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 480) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 544) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 544) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 544) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 768) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 768) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 768) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 832) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 832) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 832) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1056) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1056) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1056) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1120) (y 538) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1120) (y 538) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1120) (y 538) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1344) (y 474) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1344) (y 474) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1344) (y 474) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1408) (y 474) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1408) (y 474) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1408) (y 474) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1632) (y 538) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1632) (y 538) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1632) (y 538) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1696) (y 538) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1696) (y 538) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1696) (y 538) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1920) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1920) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1920) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1984) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 1984) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 1984) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2208) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 2208) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2208) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2272) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 2272) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2272) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2496) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 2496) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2496) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2560) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 2560) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2560) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2784) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 2784) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2784) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2848) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 2848) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 2848) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3072) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 3072) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3072) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3136) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 3136) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3136) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3360) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 3360) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3360) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3424) (y 570) (sprite "images/objects/halloween/candy.sprite"))
+    (coin (x 3424) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (coin (x 3424) (y 570) (sprite "images/custom_worlds/harvest_of_shadows/value.sprite"))
+    (spawnpoint (x 96) (y 544) (name "main"))
+    (decal (x 3620) (y 348) (sprite "images/decal/halloween/exit.png") (z-pos -90))
+    (decal (x 3620) (y 348) (sprite "images/decal/halloween/exitfg.png") (z-pos 200))
+    (sequencetrigger (x 3840) (y 0) (width 32) (height 768) (sequence "endsequence"))
+    (sequencetrigger (x 4000) (y 0) (width 64) (height 768) (sequence "stoptux"))
+    (decal (x 448) (y 545) (sprite "images/decal/halloween/gravestone2.png") (z-pos -120))
+    (decal (x 864) (y 282) (sprite "images/decal/halloween/tree.png") (z-pos -120))
+    (decal (x 1280) (y 513) (sprite "images/decal/halloween/gravestone1.png") (z-pos -120))
+    (decal (x 1696) (y 448) (sprite "images/decal/halloween/scarecrow.png") (z-pos -120))
+    (decal (x 2112) (y 545) (sprite "images/decal/halloween/gravestone2.png") (z-pos -120))
+    (decal (x 2528) (y 282) (sprite "images/decal/halloween/tree.png") (z-pos -120))
+    (decal (x 2944) (y 545) (sprite "images/decal/halloween/gravestone1.png") (z-pos -120))
+    (decal (x 3360) (y 480) (sprite "images/decal/halloween/scarecrow.png") (z-pos -120))
+    (init-script "\nimport(\"scripts/harvest_of_shadows/runtime.nut\"); ::CW <- CWWorld(this,[{name=\"CWActor001\",kind=\"bone-walker\",direction=\"left\",death=\"\",pinch=\"\",left=0.0,right=0.0,lives=5},{name=\"CWActor002\",kind=\"bone-walker\",direction=\"left\",death=\"\",pinch=\"\",left=0.0,right=0.0,lives=5},{name=\"CWActor003\",kind=\"bone-walker\",direction=\"left\",death=\"\",pinch=\"\",left=0.0,right=0.0,lives=5},{name=\"CWActor004\",kind=\"bone-walker\",direction=\"left\",death=\"\",pinch=\"\",left=0.0,right=0.0,lives=5},{name=\"CWActor005\",kind=\"bone-walker\",direction=\"left\",death=\"\",pinch=\"\",left=0.0,right=0.0,lives=5},{name=\"CWActor006\",kind=\"bone-walker\",direction=\"left\",death=\"\",pinch=\"\",left=0.0,right=0.0,lives=5}],[\"Terrain\"],768);")
+    (scripttrigger (name "CWController") (x 0) (y 0) (width 4096) (height 768) (oneshot #t) (script "CW.run();"))
+  )
+)

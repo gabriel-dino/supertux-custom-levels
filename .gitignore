@@ -1,0 +1,14 @@
+# Publish only the level packs, required assets, and player instructions.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE.md
+!/ice_slime_trail/
+!/frostbound_frontier/
+!/harvest_of_shadows/
+!/easter_eggspedition/
+
+# Local asset-validation manifests are not game content.
+**/ASSETS.json
+**/__pycache__/
+*.pyc

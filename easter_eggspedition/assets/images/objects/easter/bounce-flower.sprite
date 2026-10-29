@@ -1,0 +1,4 @@
+(supertux-sprite
+  (action (name "default") (hitbox 8 8 40 40) (fps 7) (images "bounce-flower.png"))
+  (action (name "swinging") (hitbox 8 8 40 40) (fps 12) (images "flower-bent.png" "bounce-flower.png" "flower-bent.png" "bounce-flower.png"))
+)

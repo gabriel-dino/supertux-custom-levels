@@ -1,0 +1,4 @@
+(supertux-sprite
+ (action (name "default") (hitbox 8 12 32 32) (images "lantern-0.png"))
+ (action (name "ringing") (hitbox 8 12 32 32) (images "lantern-1.png"))
+)

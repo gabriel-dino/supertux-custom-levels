@@ -1,0 +1,4 @@
+(supertux-sprite
+ (action (name "default") (hitbox 8 12 32 32) (fps 6) (images "cauldron-0.png" "cauldron-1.png"))
+ (action (name "swinging") (hitbox 8 12 32 32) (fps 12) (images "cauldron-1.png" "cauldron-2.png" "cauldron-3.png" "cauldron-0.png"))
+)

@@ -1,0 +1,8 @@
+(supertux-level-subset
+  (title (_ "Frostbound Frontier"))
+  (description (_ "Ten original adventures featuring Ember Beetles, Spring Toads, Crystal Crabs, Snow Wisps and Armored Snails."))
+  (levelset #f)
+  (contrib-type "user")
+  (hide-from-contribs #f)
+  (tuxdolls-required 0)
+)

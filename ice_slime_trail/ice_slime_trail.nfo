@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (id "ice_slime_trail")
+  (version 1)
+  (type "world")
+  (title "IceSlime Trail")
+  (author "SuperTux Player")
+  (license "CC0-1.0 (original levels/art); GPL-3.0-or-later (scripts/tilesets)")
+)

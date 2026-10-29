@@ -1,0 +1,25 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 8 12 32 32)
+    (fps 8)
+    (images "walk-0.png" "walk-1.png" "walk-2.png"
+            "walk-3.png" "walk-4.png" "walk-5.png")
+  )
+  (action
+    (name "right")
+    (hitbox 8 12 32 32)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 12 32 32)
+    (fps 8)
+    (images "squished-0.png" "squished-1.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 12 32 32)
+    (mirror-action "squished-left")
+  )
+)

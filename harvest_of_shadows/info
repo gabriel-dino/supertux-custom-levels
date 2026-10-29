@@ -1,0 +1,8 @@
+(supertux-level-subset
+ (title (_ "Harvest of Shadows"))
+ (description (_ "Ten Halloween adventures across pumpkin fields, haunted woods and Harvest Keep. New monsters, candy treats and bubbling cauldrons await!"))
+ (levelset #f)
+ (contrib-type "user")
+ (hide-from-contribs #f)
+ (tuxdolls-required 0)
+)
