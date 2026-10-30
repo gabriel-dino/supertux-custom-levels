@@ -6,13 +6,13 @@ Five standalone add-ons for **regular SuperTux 0.7.0**, containing 45 levels, wo
 
 | World | Levels | Download file |
 | --- | ---: | --- |
-| [IceSlime Trail](ice_slime_trail/README.md) | 5 | [ice_slime_trail.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.0/ice_slime_trail.zip) |
-| [Frostbound Frontier](frostbound_frontier/README.md) | 10 | [frostbound_frontier.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.0/frostbound_frontier.zip) |
-| [Harvest of Shadows](harvest_of_shadows/README.md) | 10 | [harvest_of_shadows.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.0/harvest_of_shadows.zip) |
-| [Easter Eggspedition](easter_eggspedition/README.md) | 10 | [easter_eggspedition.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.0/easter_eggspedition.zip) |
-| [The Lost Plant World](lost_plant_world/README.md) | 10 | `lost_plant_world.zip` (unreleased) |
+| [IceSlime Trail](ice_slime_trail/README.md) | 5 | [ice_slime_trail.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.1/ice_slime_trail.zip) |
+| [Frostbound Frontier](frostbound_frontier/README.md) | 10 | [frostbound_frontier.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.1/frostbound_frontier.zip) |
+| [Harvest of Shadows](harvest_of_shadows/README.md) | 10 | [harvest_of_shadows.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.1/harvest_of_shadows.zip) |
+| [Easter Eggspedition](easter_eggspedition/README.md) | 10 | [easter_eggspedition.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.1/easter_eggspedition.zip) |
+| [The Lost Plant World](lost_plant_world/README.md) | 10 | [lost_plant_world.zip](https://github.com/gabriel-dino/supertux-custom-levels/releases/download/1.1/lost_plant_world.zip) |
 
-The repository includes all five worlds. [Release 1.0](https://github.com/gabriel-dino/supertux-custom-levels/releases/tag/1.0) provides installable ZIPs for the original four worlds. The Lost Plant World has been adapted and tested for regular SuperTux 0.7.0; its downloadable release ZIP is still pending.
+[Release 1.1](https://github.com/gabriel-dino/supertux-custom-levels/releases/tag/1.1) provides installable ZIPs for all five worlds, including The Lost Plant World. Each ZIP includes its required custom assets, gameplay scripts where applicable, and license texts. Download each world separately using the links above.
 
 ## Install and play
 
