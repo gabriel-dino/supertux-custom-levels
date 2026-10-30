@@ -1,0 +1,4 @@
+(supertux-level-subset
+ (title (_ "The Lost Plant World"))
+ (description (_ "Ten adventures through abandoned gardens, root caves and ancient ruins. Face the awakened Plants and the three phases of Plant King!"))
+ (levelset #f) (contrib-type "user") (hide-from-contribs #f) (tuxdolls-required 0))
