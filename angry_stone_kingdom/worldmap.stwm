@@ -1,0 +1,126 @@
+(supertux-level
+  (version 3)
+  (name (_ "Angry Stone's Kingdom"))
+  (author "Angry Stone's Kingdom contributors")
+  (license "CC0-1.0")
+  (icon "/images/worldmap/angry_stone_kingdom/king-hud.png")
+  (icon-locked "/images/worldmap/angry_stone_kingdom/king-hud.png")
+  (bkg "/images/worldmap/angry_stone_kingdom/kingdom-map.png")
+  (tileset "images/angry_stone_kingdom.strf")
+  (allow-item-pocket "on")
+  (sector
+    (name "main")
+    (ambient-light (color 1 1 1))
+    (tilemap
+      (name "Royal Road")
+      (z-pos 0)
+      (solid #t)
+      (width 36)
+      (height 32)
+      (tiles
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9128 9111 9111 9111 9111 9111 9111 9111
+        9111 9111 9129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9103 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9127 9111 9111
+        9111 9111 9111 9111 9111 9111 9126 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0
+        0 0 0 0 0 0 0 0 9124 9111 9111 9111 9111 9111 9111 9111 9111 9111 9125 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9104 0
+        0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        9103 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9111 9123 9111 9111 9111 9111 9111 9111 9111 9111 9122 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9107 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 9107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 9107 0 0 0 0 0 0 0 0 0 0 0 9120 9111 9111 9111 9111 9111 9111 9111 9111 9121 9111 9111 9111 9111 9111
+        9111 9111 9111 9111 9111 9111 9111 9111 9111 9104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (decal (x 0) (y 0) (sprite "images/worldmap/angry_stone_kingdom/kingdom-map.png") (z-pos -200))
+    (worldmap-spawnpoint (name "main") (x 5) (y 27))
+    (music (file "music/forest/new_forest_map.music"))
+    (level (x 5) (y 27) (level "01_first_stone.stl") (sprite "images/worldmap/angry_stone_kingdom/node-1.sprite"))
+    (special-tile
+      (x 5)
+      (y 27)
+      (map-message "Green Valley")
+      (passive-message #t)
+      (invisible-tile #t)
+      (script "play_music(\"music/forest/forest_midday.music\");")
+    )
+    (level (x 14) (y 27) (level "02_rolling_hills.stl") (sprite "images/worldmap/angry_stone_kingdom/node-2.sprite"))
+    (level (x 29) (y 22) (level "03_rocky_forest.stl") (sprite "images/worldmap/angry_stone_kingdom/node-3.sprite"))
+    (special-tile
+      (x 29)
+      (y 22)
+      (map-message "Rocky Forest")
+      (passive-message #t)
+      (invisible-tile #t)
+      (script "play_music(\"music/forest/forest.music\");")
+    )
+    (level (x 20) (y 22) (level "04_stone_bridge.stl") (sprite "images/worldmap/angry_stone_kingdom/node-4.sprite"))
+    (level (x 8) (y 16) (level "05_dark_cave.stl") (sprite "images/worldmap/angry_stone_kingdom/node-5.sprite"))
+    (special-tile
+      (x 8)
+      (y 16)
+      (map-message "Crystal Caves")
+      (passive-message #t)
+      (invisible-tile #t)
+      (script "play_music(\"music/antarctic/crystalmine_main.music\");")
+    )
+    (level (x 18) (y 16) (level "06_falling_rocks.stl") (sprite "images/worldmap/angry_stone_kingdom/node-6.sprite"))
+    (level (x 30) (y 10) (level "07_lava_mountain.stl") (sprite "images/worldmap/angry_stone_kingdom/node-7.sprite"))
+    (special-tile
+      (x 30)
+      (y 10)
+      (map-message "Volcanic Mountains")
+      (passive-message #t)
+      (invisible-tile #t)
+      (script "play_music(\"music/forest/march_of_the_malevolent.music\");")
+    )
+    (level (x 21) (y 10) (level "08_ancient_ruins.stl") (sprite "images/worldmap/angry_stone_kingdom/node-8.sprite"))
+    (level (x 8) (y 4) (level "09_stone_fortress.stl") (sprite "images/worldmap/angry_stone_kingdom/node-9.sprite"))
+    (special-tile
+      (x 8)
+      (y 4)
+      (map-message "Stone Kingdom")
+      (passive-message #t)
+      (invisible-tile #t)
+      (script "play_music(\"music/antarctic/snowfort.music\");")
+    )
+    (level
+      (x 18)
+      (y 4)
+      (level "10_the_stone_king.stl")
+      (sprite "images/worldmap/angry_stone_kingdom/node-10.sprite")
+      (extro-script "state.angry_stone_kingdom_complete <- true; save_state();")
+    )
+    (decal (x 224) (y 832) (sprite "images/worldmap/angry_stone_kingdom/bridge.sprite") (z-pos -50))
+    (decal (x 896) (y 512) (sprite "images/worldmap/angry_stone_kingdom/bridge.sprite") (z-pos -50))
+    (decal (x 224) (y 416) (sprite "images/worldmap/shared/ruin.png") (z-pos -50))
+    (decal (x 864) (y 224) (sprite "images/worldmap/angry_stone_kingdom/tower.sprite") (z-pos -50))
+    (decal (x 544) (y 32) (sprite "images/worldmap/shared/castle.png") (z-pos -50))
+    (decal (x 628) (y 308) (sprite "images/worldmap/angry_stone_kingdom/lava-glow.sprite") (z-pos -150))
+    (decal (x 730) (y 920) (sprite "images/worldmap/angry_stone_kingdom/river-surf.sprite") (z-pos -150))
+  )
+)

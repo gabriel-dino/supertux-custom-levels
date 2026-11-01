@@ -9,7 +9,7 @@ This repository contains components under different terms. There is no single bl
 | Transparent value-coin helpers under `assets/images/custom_worlds/` | CC0-1.0 |
 | Portable Squirrel controllers under `assets/scripts/` | GPL-3.0-or-later |
 | Worldmap tileset definitions under `assets/images/*.strf`, adapted from SuperTux road/terrain definitions | GPL-3.0-or-later |
-| Bundled legacy Plant graphics in `lost_plant_world`, and referenced artwork/music provided by SuperTux | Their existing upstream licenses; see the pack’s `ASSET_NOTES.md` and `SUPERTUX-AUTHORS.txt` |
+| Bundled legacy Plant graphics in `lost_plant_world`, Angry Stone graphics in `angry_stone_kingdom`, and referenced artwork/music provided by SuperTux | Their existing upstream licenses; see the pack’s `ASSET_NOTES.md` and `SUPERTUX-AUTHORS.txt` |
 
 ## Original levels and artwork
 
@@ -30,3 +30,5 @@ Standard SuperTux artwork and music are referenced by path and supplied by the u
 Each pack's `ASSET_NOTES.md` identifies its original artwork. The historical creator credit “SuperTux Player” remains in the level and add-on metadata; the repository maintainer is Gabriel Dino.
 
 The Lost Plant World preserves its original CC0 layout/text declaration. Its bundled legacy SuperTux Plant graphics are excluded from the CC0 dedication, and its sprite definition and controller adaptations use GPL-3.0-or-later. The reused project crown is CC0-1.0. The original creator credit “Lost Plant World contributors” is preserved.
+
+Angry Stone’s Kingdom preserves the original CC0 dedication for its levels, map artwork and text, with the creator credit “Angry Stone’s Kingdom contributors.” Its legacy SuperTux Angry Stone PNGs and sprite definition retain their upstream rights and are excluded from CC0. The portable controller and adapted worldmap definitions use GPL-3.0-or-later. Its reused project crown is CC0-1.0; see the pack’s `ASSET_NOTES.md` and included license texts.

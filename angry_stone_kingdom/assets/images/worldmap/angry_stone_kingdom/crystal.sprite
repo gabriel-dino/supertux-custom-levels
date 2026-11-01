@@ -1,0 +1,1 @@
+(supertux-sprite (action (name "default") (regions (region "../../tiles/crystalcave/crystals1.png" 0 0 128 128))))

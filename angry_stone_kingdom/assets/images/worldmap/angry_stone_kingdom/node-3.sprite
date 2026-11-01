@@ -1,0 +1,5 @@
+(supertux-sprite
+(action (name "default") (hitbox 4 4 32 32) (images "node-3-default.png"))
+(action (name "solved") (hitbox 4 4 32 32) (images "node-3-solved.png"))
+(action (name "perfect") (hitbox 4 4 32 32) (images "node-3-perfect.png"))
+)

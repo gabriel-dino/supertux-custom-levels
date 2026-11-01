@@ -1,0 +1,1 @@
+(supertux-sprite (action (name "default") (fps 8) (regions (region "../shared/surf-01.png" 0 0 96 32) (region "../shared/surf-02.png" 0 0 96 32) (region "../shared/surf-03.png" 0 0 96 32) (region "../shared/surf-04.png" 0 0 96 32))))

@@ -1,0 +1,1 @@
+(supertux-sprite (action (name "default") (regions (region "../shared/tower.png" 0 0 96 160))))

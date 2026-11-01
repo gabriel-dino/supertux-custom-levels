@@ -8,6 +8,7 @@
 !/harvest_of_shadows/
 !/easter_eggspedition/
 !/lost_plant_world/
+!/angry_stone_kingdom/
 
 # Local asset-validation manifests are not game content.
 **/ASSETS.json

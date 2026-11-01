@@ -1,0 +1,3 @@
+(supertux-level-subset (title (_ "Angry Stone's Kingdom"))
+(description (_ "Ten adventures across Green Valley, Rocky Forest, Crystal Caves, Volcanic Mountains and the Stone Kingdom. Defeat the three phases of King Angry Stone!"))
+(levelset #f) (contrib-type "user") (hide-from-contribs #f) (tuxdolls-required 0))
